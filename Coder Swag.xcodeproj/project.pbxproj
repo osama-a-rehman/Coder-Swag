@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		42CB67D51FB860EE00BD09C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB67D41FB860EE00BD09C3 /* AppDelegate.swift */; };
-		42CB67D71FB860EE00BD09C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB67D61FB860EE00BD09C3 /* ViewController.swift */; };
 		42CB67DA1FB860EE00BD09C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CB67D81FB860EE00BD09C3 /* Main.storyboard */; };
 		42CB67DC1FB860EE00BD09C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42CB67DB1FB860EE00BD09C3 /* Assets.xcassets */; };
 		42CB67DF1FB860EE00BD09C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CB67DD1FB860EE00BD09C3 /* LaunchScreen.storyboard */; };
+		42CB67EA1FB8613F00BD09C3 /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB67E91FB8613F00BD09C3 /* CategoryVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		42CB67D11FB860EE00BD09C3 /* Coder Swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coder Swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CB67D41FB860EE00BD09C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42CB67D61FB860EE00BD09C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42CB67D91FB860EE00BD09C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42CB67DB1FB860EE00BD09C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42CB67DE1FB860EE00BD09C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42CB67E01FB860EE00BD09C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CB67E91FB8613F00BD09C3 /* CategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,38 @@
 		42CB67D31FB860EE00BD09C3 /* Coder Swag */ = {
 			isa = PBXGroup;
 			children = (
+				42CB67E81FB8610200BD09C3 /* Model */,
+				42CB67E71FB860FE00BD09C3 /* View */,
+				42CB67E61FB860F900BD09C3 /* Controller */,
 				42CB67D41FB860EE00BD09C3 /* AppDelegate.swift */,
-				42CB67D61FB860EE00BD09C3 /* ViewController.swift */,
 				42CB67D81FB860EE00BD09C3 /* Main.storyboard */,
 				42CB67DB1FB860EE00BD09C3 /* Assets.xcassets */,
 				42CB67DD1FB860EE00BD09C3 /* LaunchScreen.storyboard */,
 				42CB67E01FB860EE00BD09C3 /* Info.plist */,
 			);
 			path = "Coder Swag";
+			sourceTree = "<group>";
+		};
+		42CB67E61FB860F900BD09C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				42CB67E91FB8613F00BD09C3 /* CategoryVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		42CB67E71FB860FE00BD09C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		42CB67E81FB8610200BD09C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42CB67D71FB860EE00BD09C3 /* ViewController.swift in Sources */,
+				42CB67EA1FB8613F00BD09C3 /* CategoryVC.swift in Sources */,
 				42CB67D51FB860EE00BD09C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
